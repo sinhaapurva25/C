@@ -27,7 +27,7 @@ int main(void)
 while(beg<=end)
 	{
 		mid=(beg+end)/2;
-		printf("%d ", mid);
+		// printf("%d ", mid);
 		if(x[mid]==num)
 			{
 				printf("element found at index = %d",mid);
